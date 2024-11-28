@@ -1,12 +1,22 @@
-![dev-home-readme-header](https://github.com/microsoft/devhome/blob/main/src/Assets/Preview/StoreDisplay-150.png)
+<p align="center">
+  <a href="https://aka.ms/devhome">
+    <img src="https://github.com/microsoft/devhome/blob/main/src/Assets/Preview/StoreDisplay-150.png" alt="DevHome Logo" />
+  </a>
+</p>
 
-# Welcome to the Dev Home repo!
+<h1 align="center">Dev Home</h1>
+
+<h3 align="center">
+  <a href="https://aka.ms/devhome">About Dev Home</a>
+  <span> · </span>
+  <a href="https://github.com/microsoft/devhome/releases">Release notes</a>
+</h3>
 
 Dev Home is a new experience from Microsoft aiming to give developers more power on Windows.
 
 This repository contains the source code for:
 
-* [Dev Home](https://aka.ms/devhome)
+* [Dev Home]()
 * Dev Home core widgets
 
 Related repositories include:
@@ -14,16 +24,25 @@ Related repositories include:
 * [Dev Home GitHub Extension](https://github.com/microsoft/devhomegithubextension)
 * [Dev Home Azure Extension](https://github.com/microsoft/devhomeazureextension)
 
-## Installing and running Dev Home
+## Installing and running
 
-> **Note**: Dev Home requires Windows 11 version 21H2 (build 22000) or Windows 10 version 22H2 (build 19045) or newer.
+> [!NOTE]
+> Dev Home requires Windows 11 version 21H2 (build 22000) or Windows 10 version 22H2 (build 19045) or newer.
 
-If you are running Windows 11 23H2 (build 22621.2361) or later, you can install and run Dev Home just by finding it in the Start menu.
+Windows|Availability
+---|---
+Windows 10 22H1 or earlier|❌
+Windows 10 22H2 or later|✅
+Windows 11 21H2 ~ 23H1|✅
+Windows 11 23H2 or later|✅ (pre-installed)
 
-Otherwise, you can install [Dev Home from the Microsoft Store](https://aka.ms/devhome).
 This allows you to always be on the latest version when we release new builds with automatic upgrades. Note that widgets may not work on older versions of Windows.
 
-This is our preferred method.
+<a style="text-decoration:none" href="https://apps.microsoft.com/detail/9n8mhtphngvv?launch=true&mode=full">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://get.microsoft.com/images/en-us%20dark.svg" width="200" />
+    <img src="https://get.microsoft.com/images/en-us%20light.svg" width="200" />
+</picture></a>
 
 ### Other install methods
 
@@ -39,13 +58,9 @@ For users who are unable to install Dev Home from the Microsoft Store, released 
 winget install --id Microsoft.DevHome -e
 ```
 
----
-
 ## Dev Home roadmap
 
 The plan for Dev Home can be found in our [roadmap](docs/roadmap.md).
-
----
 
 ## Dev Home overview
 
@@ -62,8 +77,6 @@ The machine configuration tool utilizes the Dev Home GitHub Extension, but isn't
 #### Popular apps
 
 The machine configuration tool provides a list of popular apps when selecting applications to install. This is currently a hard-coded list of applications that have been popular with developers on Windows. Popularity was determined by high levels of installation and usage. As this is a moment in time, we are not accepting submissions for this list. We're looking to improve the experience with [Suggested Apps](https://github.com/microsoft/devhome/issues/375) so the list can be optimized for developers.
-
----
 
 ## Documentation
 
